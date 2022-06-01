@@ -10,7 +10,7 @@ const Home = () => {
     
     <div className="totalFlex">
         <div className="frontbox1">
-                <h1>This is absolutely amazing stuff!!!</h1>
+                <h1>Alpha shit only</h1>
 
                 <HashLink to="#heading-card" smooth={true}>
                 <button className="button-top">See Collections</button>
