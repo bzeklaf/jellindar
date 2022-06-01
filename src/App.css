@@ -1,0 +1,1003 @@
+@import "font.css";
+
+body {
+    background-color: 	#202020;
+}
+
+.social_icon {
+    width: 65px;
+    padding:0px 15px 0px 15px;
+}
+
+.deadjellies {
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.heading-card {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading-pic {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+}
+
+.heading-bottom-card {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.front-left-img {
+margin-top: 7px;
+}
+.card {
+    background-color: #9FD4CC;
+    border: 10px solid #6DBDB1;
+    box-shadow: 3px 3px 3px 3px #9FD4CC;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform .3s;
+    
+}
+
+.bottomCard {
+    background-color: #9FD4CC;
+    border: 10px solid #6DBDB1;
+    box-shadow: 2px 2px 6px 0px #9FD4CC;
+    border-radius: 50px;
+    text-align: center;
+    width: 120vh;
+    transition: transform .3s;
+    margin-left: 20px;
+    
+}
+
+.frontCard {
+    background-color: #9FD4CC;
+    border-radius: 50px;
+    text-align: center;
+    width: 800px;
+    transition: transform .3s;
+    box-shadow: 10px 10px 10px rgba(109, 189, 177, 0.5);
+}
+
+.mainCard {
+    background-color: #9FD4CC;
+    border-radius: 50px;
+    width: 205vh;
+    transition: transform .3s;
+    margin: 5vh 3vh 0px 3vh;
+}
+
+.mint-status {
+flex:1;
+}
+
+.circle {
+background: #BFCBF6;
+border: 5px solid #7285C9;
+box-sizing: border-box;
+border-radius: 50px;
+width: 100px;
+margin-left: 28%;
+font-family: "Stylish";
+}
+
+.circle-main {
+    background: #BFCBF6;
+    border: 5px solid #7285C9;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+    font-family: "Stylish";
+    margin-left: 10.5rem;
+    }
+
+.mint-flex {
+    display: flex;
+}
+
+.img {
+    width: 100%;
+    border-radius: 50px;
+    height: 220px;
+    width: 220;
+    object-fit: cover;
+    padding: 0px 5px 0px 5px;
+}
+
+.bottomImg {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.frontImg {
+    width: 333px;
+    height: 333px;
+    border-radius: 50px;
+    border: 10px solid #6DBDB1;
+    margin: 10px 5px 5px 10px;
+    object-fit: cover;
+}
+
+.grid {
+    margin: 80px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+
+}
+
+.bottomGrid {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translate(5px);
+    box-shadow: 2px 2px 26px 0px rgba(255, 255, 255, .5);
+}
+
+.bottomCard:hover {
+    transform: translate(5px);
+    box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, .5);
+}
+
+.title{
+    text-transform: uppercase;
+    padding: 0px 20px 10px;
+    word-break:keep-all;
+    font-family: "Stylus BT";
+    font-weight: 600;
+    font-size: 17px;
+    height:42px;
+}
+
+.titleBottom {
+    text-transform: uppercase;
+    padding: 0px 0px 5px;
+    word-break: keep-all;
+    font-family: "Stylus BT";
+    font-weight: 600;
+    font-size: 17px;
+    flex:4;
+    height: 42px;
+
+}
+
+.titleFront {
+    text-transform: uppercase;
+    padding: 0px 20px;
+    word-break: keep-all;
+    font-family: "Stylus BT";
+    font-weight: 600;
+    font-size: 30px;
+    flex:4;
+    height: 70px;
+}
+
+.titleMain {
+    text-transform: uppercase;
+    padding: 0px 20px 30px;
+    word-break: keep-all;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 10px 10px;
+    word-break: keep-all;
+    font-family: "Stylus BT";
+    font-weight: 400;
+    font-size: 12px;
+    height: 46px;
+    
+}
+
+.textBottom {
+    font-family: 'Poppins', sans-serif;
+    word-break: keep-all;
+    text-align: left;
+    font-family: "Stylus BT";
+    font-weight: 400;
+    font-size: 15px;
+    height: 60px;
+}
+
+.textFront {
+    font-family: 'Stylus BT';
+    word-break: keep-all;
+    text-align: left;
+    font-size: 20px;
+    height: 122px;
+}
+
+.textMain {
+    font-family: 'Poppins', sans-serif;
+    word-break: keep-all;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+
+.button-top {
+    cursor: pointer;
+                outline: none;
+                padding: 0.75rem 1.25rem;
+                border-radius: 20px;
+                font-size: 2rem;
+                font-family: "Stylish";
+                background: #D6E2EA;
+                color: #5841E2;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                margin-top: 20px;
+               
+            
+                
+
+}
+
+.button-top:hover {
+    border-color: #5841E2;
+    background: #333333;
+    color: #5841E2;
+}
+
+.button-top:active {
+    
+    border-color: rgb(162, 162, 246);
+    background: linear-gradient(rgba(rgb(162, 162, 246), 0.2), rgba(rgb(162, 162, 246), 0.3));
+    color: rgb(162, 162, 246);
+}
+
+.button-load {
+    cursor: pointer;
+                outline: none;
+                padding: 0.75rem 1.25rem;
+                border-radius: 20px;
+                font-size: 2rem;
+                font-family: "Stylish";
+                background: #D6E2EA;
+                color: #5841E2;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                margin-left: 287px;
+                margin-bottom: 60px;
+                
+
+}
+
+.button-load:hover {
+    border-color: #5841E2;
+    background: #333333;
+    color: #5841E2;
+}
+
+.button-load:active {
+    
+    border-color: rgb(162, 162, 246);
+    background: linear-gradient(rgba(rgb(162, 162, 246), 0.2), rgba(rgb(162, 162, 246), 0.3));
+    color: rgb(162, 162, 246);
+}
+ 
+
+.cat-btn {
+    cursor: pointer;
+                outline: none;
+                padding: 0.75rem 1.25rem;
+                border-radius: 20px;
+                font-size: 2rem;
+                font-family: "Stylish";
+                background: #D6E2EA;
+                color: #5841E2;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                
+
+}
+
+.cat-btn:hover {
+    border-color: #5841E2;
+    background: #333333;
+    color: #5841E2;
+}
+
+.cat-btn:active {
+    
+    border-color: rgb(162, 162, 246);
+    background: linear-gradient(rgba(rgb(162, 162, 246), 0.2), rgba(rgb(162, 162, 246), 0.3));
+    color: rgb(162, 162, 246);
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center; 
+    margin-top: 7px;
+}
+
+.container-1-bottom-2 {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-1-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1-front {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1-main-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-1-front-bottom {
+    display: flex;
+    justify-content: center; 
+    margin: 5px 0px 0px 0px;
+
+}
+
+.all-front-icons {
+    margin-top:15px;
+}
+
+.boxBottom {
+    width: 30px;
+}
+
+.boxBottom-front {
+    width: 50px;
+    margin: 3px 15px 15px 15px;
+}
+
+.boxMain {
+    width: 30px;
+}
+
+.top-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.box-1 {
+flex:1;
+}
+
+.box-2 {
+flex:3;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.box-1-front {
+    flex:1;
+    }
+    
+    .box-2-front {
+    flex:3;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+.box-1-bottom {
+flex:1;
+}
+
+.box-2-bottom {
+flex:3;
+padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.box-1-main {
+    flex:1;
+}
+
+.box-2-main {
+    flex:3;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.frontFlex {
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .frontbox1 {
+        flex:1;
+          padding: 60px 30px 0px 30px;
+    }
+    
+    .frontbox2 {
+        flex:2;
+        padding: 60px 30px 0px 30px;
+    }
+    
+    .totalFlex {
+        display: flex;
+    }
+    
+    .frontPrice {
+        width: 130px;
+    }
+    
+    .mainPrice {
+        width: 100px;
+        padding-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+.new-main-icon-left {
+    width: 185px;
+    height: 77px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin: 3vh 0vh 0vh 3vh;
+}
+
+.new-main-icon-left-text {
+    font-family: "Stylus BT";
+    font-size: 25px;
+    color: white;
+    padding: 22px 0px 0px 15px;
+}
+
+.new-main-icon-left-img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.new-main-icon-right {
+    width: 77px;
+    height: 77px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin: 3vh 0vh 0vh 3vh;
+}
+
+.new-main-icon-right-img {
+    width: 50px;
+    margin-left: 13px;
+}
+
+.new-main-icon-last {
+    width: 185px;
+    height: 77px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+}
+
+.new-front-price {
+    width: 120px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin-left: 130px;
+}
+
+.new-front-price-img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.new-front-price-text {
+    font-family: "Stylus BT";
+    font-size: 20px;
+    color: white;
+    padding: 15px 0px 0px 15px;
+}
+
+.new-front-price-text-bottom {
+    font-family: "Stylus BT";
+    font-size: 15px;
+    color: white;
+    padding: 15px 0px 0px 3px;
+}
+
+.new-main-icon-right-last-img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.main-big-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-big-flex-right-img {
+   width: 450px;
+   border: 10px solid #6DBDB1;
+   border-radius: 50px;
+   
+}
+
+.card-icon-price {
+    width: 90px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin-left: 70px;
+}
+
+
+.card-icon-price-img {
+    width: 30px;
+    padding-left: 5px;
+}
+
+.card-icon-price-text {
+    font-family: "Stylus BT";
+    font-size: 15px;
+    color: white;
+    padding: 13px 0px 0px 10px;
+}
+
+.card-icon {
+    width: 70px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin: 2.5px;
+}
+
+
+.card-icon-img {
+    width: 15px;
+    margin-left: 5px;
+}
+
+.card-icon-text {
+    font-family: "Stylus BT";
+    font-size: 10px;
+    color: white;
+    padding: 13px 0px 0px 10px;
+}
+
+.bottom-blockchain-icon {
+    height: 35px;
+}
+
+.bottom-card-icon {
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+}
+
+
+.bottom-card-icon-img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.bottom-card-icon-text {
+    font-family: "Stylus BT";
+    font-size: 10px;
+    color: white;
+    padding: 13px 0px 0px 10px;
+}
+
+.main-big-flex-right {
+ margin: 3vh 5vh 5vh 0vh;
+}
+
+.main-title {
+    text-align: center;
+    font-family: "Stylus BT";
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.main-big-description {
+    width: 112vh;
+    background-color: #7DB8AF;
+    color: white;
+    border-radius: 12px;
+    margin: 3vh 11vh 0vh 5vh;
+    padding: 20px;
+}
+
+
+
+.main-big-bottom-flex {
+    display: flex;
+}
+
+.main-bottom-column-1 {
+    flex:2;
+    width: 70vh;
+    background-color: #7DB8AF;
+    color: white;
+    border-radius: 12px;
+    margin: 2vh 0vh 5vh 5vh;
+    font-size: 24px;
+    padding: 20px;
+
+}
+.main-bottom-column-2{
+    flex:1;
+}
+
+.main-bottom-column-3{
+    flex:1;
+}
+
+.new-front-icon {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #343535;
+    display:flex;
+    margin: 2px;
+}
+
+.new-front-icon-img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.new-front-icon-img-rt {
+    width: 30px;
+    margin-left: 35px;
+}
+
+.pic-main-column {
+    display: flex;
+    flex-direction: column;
+    width:368px;
+    border: 10px solid #6DBDB1;
+    background-color: #9FD4CC;
+    border-radius: 28px;
+    margin-left: 20vh;
+}
+
+.pic-column {
+    width: 335px;
+    border-radius: 47px;
+    margin: 5px 5px 5px 6px;
+}
+
+.finalFlex {
+    display: flex;
+}
+
+.footer {
+    height:150px ;
+    background-color: black; 
+}
+
+.footer-text {
+    color: white;
+    font-family: "Stylish";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.button-box {
+    padding: 50px 0px 0px 200px;
+}
+
+.cat-btn {
+    margin: 5px;
+}
+
+
+.top {
+   margin-left: 40%;
+   margin-bottom: 20px;
+}
+@media (max-width: 1170px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 870px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 610px){
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 110px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .bottomCard{
+        width: 450px;
+        margin-left: 0px;
+    }
+    .frontCard{
+        background-color: #9FD4CC;
+        border-radius: 50px;
+        text-align: center;
+        width: 400px;
+        transition: transform .3s;
+    
+    }
+    .frontImg {
+       height: 320px;
+        border-radius: 50px;
+        margin-right:20px;
+        margin: 10px 0px 0px;
+       
+    }
+
+    .container-1-front {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .totalFlex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textFront {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .titleFront {
+        padding: 0px 20px 10px;
+        word-break: keep-all;
+        flex:4;
+        font-size: 25px; 
+    }
+
+    .titleMain {
+        padding: 0px 20px 0px;
+        word-break: keep-all;
+    }
+    
+    .button-load {
+        margin-left: 30%;
+    }
+
+    .box-2-bottom {
+        padding-top: 5px;
+    }
+    
+    .button-top {
+        margin-top: 20px;
+        margin-left: 18%;
+    }
+
+    .textBottom {
+        padding-right: 10px;
+        text-align: left;
+    }
+
+    .box-2-front {
+        flex:3;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+
+        .container-1-front-bottom {
+            padding-right: 15px;
+        }
+
+        .boxBottom-front {
+            width: 50px;
+            margin: 15px 15px 0px 15px;
+        }
+
+        .container-1-bottom-2 { 
+            justify-content: space-evenly;
+            margin-top: 16px;
+        }
+
+        .bottom-blockchain-icon {
+            height: 25px;
+        }
+        
+        .bottom-card-icon {
+            height: 25px;
+            border-radius: 6px;
+            background-color: #343535;
+            display:flex;
+        }
+        
+        .bottom-card-icon-img {
+            width: 15px;
+            margin-left: 5px;
+        }
+        
+        .bottom-card-icon-text {
+            font-family: "Stylus BT";
+            font-size: 10px;
+            color: white;
+            padding: 7px 0px 0px 5px;
+        }    
+
+        .mainCard {
+            background-color: #9FD4CC;
+            border-radius: 50px;
+            width: 26.5rem;
+            transition: transform .3s;
+            margin: 30px 0px 0px 30px;
+        }
+
+        .titleMain {
+            text-transform: uppercase;
+            word-break: keep-all;
+        }
+
+        .main-big-flex {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+        }
+        
+        .main-big-description {
+            width: 365px;
+        }
+
+        .main-big-flex-right-img {
+            width: 395px;
+            margin-left: 15px;
+        }
+
+        .main-bottom-column-1 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .new-main-icon-left {
+            width: 70px;
+            height: 70px;
+            margin-right: 0px;
+        }
+
+        .new-main-icon-left-text {
+            visibility: hidden;
+        }
+
+        .new-main-icon-right {
+            width: 70px;
+            height: 70px;
+            margin: 3vh 2vh 0vh 1vh;
+        }
+
+        .new-main-icon-right-img {
+            margin: 10px;
+        }
+
+        .new-main-icon-last {
+            width: 70px;
+            height: 70px;
+        }
+
+        .finalFlex {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .button-box {
+            padding: 50px 0px 0px 55px;
+            margin-bottom: 30px;
+        }
+
+        .pic-main-column {
+            margin-left: 57px;
+        }
+
+
+        .container-1-front-bottom {
+            margin-left: 18px;
+        }
+
+        .new-front-price {
+            width: 110px;
+            height: 40px;
+            border-radius: 12px;
+            background-color: #343535;
+            display:flex;
+            margin-left: 130px;
+            margin-top: 0px;
+        }
+
+        .new-front-price-img {
+            width: 23px;
+            margin-left: 10px;
+        }
+
+        .new-front-price-text {
+            font-family: "Stylus BT";
+            font-size: 18px;
+            color: white;
+            padding: 10px 0px 0px 10px;
+        }
+
+        .new-front-icon {
+            width: 90px;
+            height: 40px;
+            border-radius: 12px;
+            background-color: #343535;
+            display:flex;
+            margin: 2px;
+        }
+        
+        .new-front-icon-img {
+            width: 30px;
+            margin-left: 10px;
+        }
+
+        .new-front-price-text-bottom {
+            font-family: "Stylus BT";
+            font-size: 12px;
+            color: white;
+            padding: 12px 0px 0px 5px;
+        }
+
+        
+        .new-front-icon-img-rt {
+            width: 30px;
+            margin-left: 30px;
+        }
+
+        .all-front-icons {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+}
