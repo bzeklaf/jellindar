@@ -166,16 +166,12 @@ const Card = (props) => {
             setIsShownLess((!isShown));
         }
 
-        function togetherness() {
-          toggleIsShown();
-          scrollUp();
-        }
     
         return(
         <p>
          {result}
          <Link to={mcard_link}>
-         <span onClick={togetherness}>...</span>  
+         <span onClick={()=>{toggleIsShown();scrollUp();}}>...</span>  
          </Link> 
         </p>
         )
