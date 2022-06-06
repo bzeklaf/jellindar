@@ -74,7 +74,7 @@ margin-top: 7px;
 .mainCard {
     background-color: #9FD4CC;
     border-radius: 50px;
-    width: 214vh;
+    width: 207vh;
     transition: transform .3s;
     margin: 5vh 3vh 0px 3vh;
 }
@@ -786,7 +786,7 @@ body {
   }
   
   .team-container {
-      width: 214vh;
+      width: 207vh;
       background-color: #9FD4CC;
       border-radius: 20px;
       margin-left: 23px;
