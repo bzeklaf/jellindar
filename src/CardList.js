@@ -35,18 +35,6 @@ else if(word==='solana'){
 
 setState(filtered);
 }
-
-else if(word==='polygon'){
-  const filtered = bottomCards.filter(bottomCard=>bottomCard.blockchain==='polygon');
-
-setState(filtered);
-}
-
-else if(word==='bsc'){
-  const filtered = bottomCards.filter(bottomCard=>bottomCard.blockchain==='bsc');
-
-setState(filtered);
-}
 }
 
  const[noOfElement, setnoOfElement] = useState(10);
@@ -69,10 +57,8 @@ setState(filtered);
          
         <div className='button-box'>
           <button value="all" className='cat-btn' onClick={handleBtns}>All</button>
-          <button value="ethereum" className='cat-btn' onClick={handleBtns}>Ethereum</button>
-          <button value="bsc" className='cat-btn' onClick={handleBtns}>BSC</button>  
+          <button value="ethereum" className='cat-btn' onClick={handleBtns}>Ethereum</button> 
           <button value="solana" className='cat-btn' onClick={handleBtns}>Solana</button>
-          <button value="polygon" className='cat-btn' onClick={handleBtns}>Polygon</button>
         </div> 
         
         <div className='finalFlex'>

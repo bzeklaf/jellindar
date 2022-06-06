@@ -268,6 +268,37 @@ font-family: "Stylish";
     color: rgb(162, 162, 246);
 }
 
+.button-up {
+    cursor: pointer;
+                outline: none;
+                padding: 0.75rem 1.25rem;
+                border-radius: 20px;
+                font-size: 2rem;
+                font-family: "Stylish";
+                background: #D6E2EA;
+                color: #5841E2;
+                border: 1px solid transparent;
+                transition: 0.3s ease all;
+                margin-top: 20px;
+               
+            
+                
+
+}
+
+.button-up:hover {
+    border-color: #5841E2;
+    background: #333333;
+    color: #5841E2;
+}
+
+.button-up:active {
+    
+    border-color: rgb(162, 162, 246);
+    background: linear-gradient(rgba(rgb(162, 162, 246), 0.2), rgba(rgb(162, 162, 246), 0.3));
+    color: rgb(162, 162, 246);
+}
+
 .button-load {
     cursor: pointer;
                 outline: none;
@@ -777,7 +808,7 @@ body {
   }
   
   .team-flexA1 {
-    width: 650px;
+    width: 120vh;
     height: 200px;
     background-color: #7DB8AF;
     border-radius: 12px;
@@ -807,7 +838,7 @@ body {
   }
   
   .team-flexB2 {
-    width: 650px;
+    width: 120vh;
     height: 200px;
     background-color: #7DB8AF;
     border-radius: 12px;
@@ -1006,7 +1037,7 @@ body {
 
         .finalFlex {
             display: flex;
-            flex-direction: column-reverse;
+            flex-direction: column;
         }
 
         .button-box {
@@ -1075,5 +1106,9 @@ body {
         .all-front-icons {
             margin-top: 0px;
             margin-bottom: 20px;
+        }
+
+        .button-up {
+            margin-left: 0px;
         }
 }

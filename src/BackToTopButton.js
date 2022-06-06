@@ -22,7 +22,7 @@ const scrollUp = () => {
 
   return <div className="top">
     {backToTopButton && (
-      <button className="button-top" onClick={scrollUp} >JELLY UPPPP!!!</button>
+      <button className="button-up" onClick={scrollUp} >JELLY UPPPP!!!</button>
     )}
 
   </div>;
